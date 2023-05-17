@@ -1,0 +1,19 @@
+<div class="bg-coffee d-flex px-3 justify-content-between mobile-nav col-12">
+    <div class="navbar-text">CAREERS AT JDE</div>
+    <div [ngClass]="menuIcon()" (click)="toggleNavbar()">
+        <!-- <img src="assets/icons/hamburger_icon.svg"> -->
+    </div>
+</div>
+
+<div class="menu d-flex justify-content-center" *ngIf="navbarOpen">
+    <div class="d-flex flex-column justify-content-center bg-coffee menu-text">
+        <div class="p-3">HOME</div>
+        <div class="p-3">WHO WE ARE</div>
+        <div class="p-3">CAREERS AT JDE</div>
+        <div class="p-3">LIFE AT JDE</div>
+        <div class="p-3">JOIN US</div>
+        <div class="pt-5">
+            <button class="btn view-404">VIEW 404 PAGE</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+
+// FONT STYLES FOR CARD ITEMS
+
+.card-header {    
+    color: #A04830;
+    font-size: 80px;
+    @media (max-width: 576px) {
+        font-size: 48px;
+    }
+}
+
+.card-sub-header {      
+    color: #3F3A31;
+    font-size: 32px;  
+    @media (max-width: 576px) {
+        font-size: 24px;
+    }
+}
+
+.card-body-text {    
+    color: #3F3A31;
+    font-size: 20px;
+    line-height: 28px;
+    @media (max-width: 576px) {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

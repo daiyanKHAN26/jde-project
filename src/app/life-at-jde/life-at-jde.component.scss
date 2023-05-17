@@ -1,0 +1,25 @@
+.card-background {
+    background-image: url("../../assets/icons/E_background.svg");
+    height: 1321px;
+    background-size: cover;
+    position: absolute;
+    left: -40px;
+    @media (max-width: 576px) {
+        height: 1131px;
+    }    
+}
+
+.header-img {
+    max-width: 85vw;
+}
+
+.text-background {
+    background-image: url("../../assets/icons/shape_beije.svg");
+    height: 732px;
+    background-size: cover;
+    padding: 100px;
+    @media (max-width: 576px) {
+        height: 620px;
+        padding: 30px;
+    }  
+}

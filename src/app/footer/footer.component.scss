@@ -1,0 +1,72 @@
+.footer {
+  max-height: 100vh;
+  text-align: left;
+  @media (max-width: 576px) {
+    text-align: center;
+  }
+
+}
+
+.joinus-btn {
+  position: absolute;
+}
+
+.joinus-pic-box {
+  position: relative;
+  bottom: 100px;
+  overflow-x: hidden;
+
+  @media (max-width: 576px) {
+    bottom: -20px;
+  }
+}
+
+.pic {
+  max-width: 150%;
+}
+
+.footer-text {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+
+  & :hover {
+    color: #CC902D;
+    cursor: pointer;
+  }
+}
+
+.copyright {
+  font-family: Arial,
+    "Helvetica Neue",
+    Helvetica,
+    sans-serif;
+}
+
+.footer-nav {
+  position: relative;
+  bottom: 210px;
+
+  @media (max-width: 576px) {
+    bottom: 0px;
+  }
+}
+
+.cookies-btn {
+  background-color: transparent;
+  color: white;
+//   font-size: 2rem;
+  border-radius: 0;
+  border: 2px solid white;
+  @media (max-width: 576px) {
+    border: 2px solid transparent;
+  }
+}
+
+
+.cookies-btn:hover,
+.cookies-btn:focus {
+  background-color: #CC902D;
+  border: 2px solid transparent;
+  color: white;
+}

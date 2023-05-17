@@ -1,0 +1,10 @@
+.card-height {
+    min-height: 658px;
+    @media (max-width: 576px) {
+        min-height: 0;
+    }
+}
+
+.coffee-img {
+    align-self: center;
+}

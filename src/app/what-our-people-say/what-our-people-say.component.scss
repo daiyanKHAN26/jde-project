@@ -1,0 +1,26 @@
+.namecard-color {
+    color: #A04830;
+}
+
+.img-size {
+    width: 35vw;
+    @media (max-width: 576px) {
+        width: 95vw;
+    }   
+}
+
+.card-header {
+    line-height: 50px;
+    padding: 50px 30px 80px 30px;
+    @media (max-width: 576px) {
+        padding: 50px 30px 30px 30px;
+    } 
+}
+
+.card-sub-header {
+    line-height: 30px;
+}
+
+.card-body-text {
+    font-size: 24px;
+}

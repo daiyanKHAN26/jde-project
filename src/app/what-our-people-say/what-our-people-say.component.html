@@ -1,0 +1,29 @@
+<div class="bg-cream d-flex flex-column text-center py-5">
+    <div class="card-header">WHAT OUR PEOPLE SAY</div>
+    <div class="d-flex flex-md-row-reverse flex-column">
+        <div *ngIf="innerWidth > 650" class="d-flex px-4">
+            <img src="assets/icons/arrow_right.svg">
+        </div>
+        <div>
+            <img class="img-size" src="assets/icons/Julia_pic.png">
+        </div>
+        <div *ngIf="innerWidth < 650" class="d-flex px-3 justify-content-between">
+            <img src="assets/icons/arrow_left_disabled.svg">
+            <img src="assets/icons/arrow_right.svg">
+        </div>
+        <div class="d-flex flex-column justify-content-center px-4 px-md-5 mx-md-5">
+            <div class="card-sub-header namecard-color">JULIA LEUCKERMANN</div>
+            <div class="card-sub-header pt-2 pb-3">CONTINUOUS IMPROVEMENT MANAGER, FACTORY UTRECHT</div>
+            <div class="card-body-text">“One of the things I love about working in the Roastery is that I can go to the supermarket, see our products on the shelves and I’ll feel connected to the world through coffee. I can pick up a pack and read the label, and will know where it’s produced, when it was made – I might even know the colleagues who roasted it.”</div>
+        </div>
+        <div *ngIf="innerWidth > 650" class="d-flex px-4">
+            <img src="assets/icons/arrow_left_disabled.svg">
+        </div>
+    </div>
+    <div class="py-4">
+        <img class="px-1" src="assets/icons/Ellipse_selected.svg">
+        <img class="px-1" src="assets/icons/Ellipse_outline.svg">
+        <img class="px-1"src="assets/icons/Ellipse_outline.svg">
+    </div>
+    
+</div>

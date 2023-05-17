@@ -1,0 +1,46 @@
+// CSS for join us button
+.light-btn {
+    background-color: #A04830;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0;
+    
+}
+
+.light-btn:hover, .light-btn:focus {
+    background-color: white;
+    color: #A04830;
+    border: 2px solid #A04830;
+    .light-arrow-icon {
+        content: url("../../assets/icons/joinus_arrow_dark.svg");
+    }
+}
+
+.light-arrow-icon {
+    padding-top: 10px;
+    content: url("../../assets/icons/joinus_arrow_light.svg");
+}
+
+// CSS for dark button
+
+.dark-btn {
+    background-color: transparent;
+    color: #A04830;
+    border: 2px solid #A04830;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.dark-btn:hover, .dark-btn:focus, .dark-btn:active {
+    background-color: #A04830;
+    color: white;
+    .dark-arrow-icon {
+        content: url("../../assets/icons/joinus_arrow_light.svg");
+    }
+}
+
+.dark-arrow-icon {
+    height: 24px;
+    padding-top: 4px;
+    content: url("../../assets/icons/joinus_arrow_dark.svg");
+}

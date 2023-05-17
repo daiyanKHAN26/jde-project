@@ -1,0 +1,32 @@
+.mobile-nav {
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 0 6px black;
+}
+
+.large-navbar {
+  background-color: #3F3A31;
+  color: white;
+  font-size: 20px;
+
+  & :hover {
+    color: #CC902D;
+    cursor: pointer;
+  }
+}
+
+.shadow {
+  box-shadow: 0 0 5px black;
+  z-index: 1000;
+  position: relative;
+}
+
+// .btn-custom {
+//   color: red;
+//   background-color: pink;
+
+//   & :hover {
+//     color: green !important;
+//     background-color: red !important;
+//   }
+// }
